@@ -9,7 +9,7 @@ import {
   TimepickerComponent,
   TimepickerConfig,
   TimepickerModule
-} from '../../timepicker';
+} from '../../timepicker/index';
 
 function getInputElements(fixture: any) {
   return fixture.nativeElement.querySelectorAll('input') as HTMLInputElement;

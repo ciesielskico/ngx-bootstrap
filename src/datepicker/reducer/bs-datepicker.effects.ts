@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
-import { getFullYear, getMonth } from '../../chronos/utils/date-getters';
+import { getFullYear, getMonth } from 'ngx-bootstrap/chronos';
 import { BsDatepickerAbstractComponent } from '../base/bs-datepicker-container';
 import { BsDatepickerConfig } from '../bs-datepicker.config';
 import {
